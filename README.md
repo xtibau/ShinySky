@@ -14,8 +14,9 @@ install.package("shinysky")
 
 to install the latest version
 ```r
-if (require(devtools)) install.packages("devtools")#if not already installed
-devtools::install_github("AnalytixWare/ShinySky")
+if (require(remotes)) install.packages("remotes")#if not already installed
+library(remotes)
+install_github("AnalytixWare/ShinySky")
 ```
 
 # Quick Start
